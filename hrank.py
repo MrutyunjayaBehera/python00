@@ -20,10 +20,10 @@ import re
 import sys
 
 
-n = input("enter the  number: ")
-print(type(n))
-n = int(n)
-print(type(n))
+
+
+n = int(input().strip())
+
 
 if n % 2 != 0:
 	print("Weird")
